@@ -55,7 +55,7 @@ func (r *ExampleGraph) Step2() {
 	fmt.Printf("Counter: %d\n", r.counter)
 }
 
-// Condition to continue to from Step2
+// Condition to continue from Step2
 func (r *ExampleGraph) Step2ContinueCondition() bool {
 	return r.counter >= 3
 }
